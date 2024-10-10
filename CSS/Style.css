@@ -1,28 +1,67 @@
 body {
     font-family:Nunito, "Times New Roman", serif;
-    background-color: rgb(77, 172, 240);
+    background-color:rgb(128, 128, 128);
     color:rgb(12, 12, 12);
-    font-size: 25pt;
+    font-size: 18pt;
 }
 h1, h2, h3, h4, h5,h6{
     font-family:Sofadi, Arial, sans-serif;
-    font-size:45pt; 
+    text-align: center;
+     
 }
+h1 {
+    font-size: 30pt;
+}
+
+h2 {
+    font-size: 27pt;
+    color:darkgreen
+}
+
+
 header {
     text-align:center;
 }
+
+
 #hero, footer {
     text-align:center;
     color: rgb(3, 3, 3);
     background-color: rgba(113, 4, 35, 0.99);
     padding: 10px;
     border: 20px groove rgb(4, 52, 141);
-    border: radius 10px;
+
 }
+
+/* Hero Section */
+
 #hero img {
     width:230px;
     box-shadow: 25px 25px 25px black
 }
+
+/* Bio Section */
+
 #bio {
-    text-align: center; 
+    text-align: center;
+}
+
+/* Hobbies */
+
+#hobbies ul li:nth-child(even) {
+    color:rgba(113, 4, 35, 0.99)
+}
+
+/* Gallery */
+
+#gallery {
+    border: 3px dashed rgb(4, 52, 141);
+}
+
+#gallery img {
+    max-width:100%;
+}
+
+#gallery figure {
+    text-align:center;
 }
