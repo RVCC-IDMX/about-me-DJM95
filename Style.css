@@ -52,7 +52,6 @@ header {
     color:rgba(113, 4, 35, 0.99)
 }
 
-<<<<<<< HEAD
 #hobbies {
     text-align: center;
 }
@@ -61,12 +60,6 @@ header {
 
 #gallery {
     border: 5px dashed rgb(4, 52, 141);
-=======
-/* Gallery */
-
-#gallery {
-    border: 3px dashed rgb(4, 52, 141);
->>>>>>> ba9ebe91f7550b4028c38ebebe21397ab8e37644
 }
 
 #gallery img {
@@ -75,13 +68,10 @@ header {
 
 #gallery figure {
     text-align:center;
-<<<<<<< HEAD
 }
 
 /* Article */
 
 #lit {
     border: 5px groove goldenrod;
-=======
->>>>>>> ba9ebe91f7550b4028c38ebebe21397ab8e37644
 }
